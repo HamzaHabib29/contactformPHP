@@ -671,7 +671,7 @@
             submitHandler: function (form) {
                 $.ajax({
                     type: "POST",
-                    url: "sendsmtpmail.php",
+                    url: "/ideakarachi/sendsmtpmail.php",
                     data: $(form).serialize(),
                     dataType: 'json', // Expecting JSON response
                     success: function (response) {
